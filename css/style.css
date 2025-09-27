@@ -8,7 +8,7 @@ body {
 /* Sidebar links */
 .sidebar {
     width: 200px;
-    background-color: #333; /* dunkelgrau */
+    background-color: #006400
     min-height: 100vh;
     position: fixed;
     left: 0;
@@ -39,7 +39,7 @@ body {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #006400;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
