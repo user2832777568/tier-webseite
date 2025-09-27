@@ -2,52 +2,93 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Unsere Schutzprojekte</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schutzprojekte</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
-      line-height: 1.6;
-    }
-
-       <div class="layout">
-        <aside class="sidebar">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="tiere.html">Tiere</a>
-                <a href="spenden.html">Schutzprojekte</a>
-                <a href="kontakt.html">Spenden</a>
-                <a href="kontakt.html">Kontakt</a>
-            </nav>
-        </aside>
-    
-    main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
     }
 
     header {
       text-align: center;
-      margin-bottom: 40px;
+      padding: 2rem;
+      background-color: #f4f4f4;
     }
 
     header h1 {
-      color: #284e6f;
+      margin-bottom: 0.5rem;
     }
 
-    .intro {
-      background: #eaf3fa;
-      padding: 20px;
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .project {
+      background: #ffffff;
+      border: 1px solid #ddd;
       border-radius: 10px;
-      margin-bottom: 40px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
     }
 
-    .projekt {
-      background: #fff;
-      padding: 20px;
-      margin-bottom: 30px;
-      border-
+    .project h3 {
+      margin-top: 0;
+    }
+
+    .project p {
+      margin: 1rem 0;
+    }
+
+    .project a {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background-color: #2a9d8f;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    .project a:hover {
+      background-color: #21867a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Schutzprojekte</h1>
+    <h2>Unterstützen Sie den Schutz von Tierarten, die vom Aussterben bedroht sind.</h2>
+  </header>
+
+  <main class="projects">
+    <div class="project">
+      <h3>Projekt 1</h3>
+      <p>Helfen Sie mit, Lebensräume seltener Tierarten zu erhalten.</p>
+      <a href="spenden.html">Jetzt spenden</a>
+    </div>
+    <div class="project">
+      <h3>Projekt 2</h3>
+      <p>Unterstützen Sie die Rettung von Meeresschildkröten.</p>
+      <a href="spenden.html">Jetzt spenden</a>
+    </div>
+    <div class="project">
+      <h3>Projekt 3</h3>
+      <p>Tragen Sie dazu bei, bedrohte Affenarten zu schützen.</p>
+      <a href="spenden.html">Jetzt spenden</a>
+    </div>
+    <div class="project">
+      <h3>Projekt 4</h3>
+      <p>Helfen Sie uns, Wildkatzen vor dem Aussterben zu bewahren.</p>
+      <a href="spenden.html">Jetzt spenden</a>
+    </div>
+  </main>
+
+</body>
+</html>
