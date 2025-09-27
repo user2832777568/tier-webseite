@@ -2,23 +2,30 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Seitenlayout Grün</title>
+  <title>Seite mit Navigation und Footer</title>
   <style>
-    /* Allgemeiner Seitenstil */
+    /* Allgemeine Seitenstile */
     body {
       margin: 0;
       font-family: Helvetica, Arial, sans-serif;
-      font-size: 12px; /* Standardtextgröße */
+      font-size: 12px;
+      color: black;
       background-color: #90EE90; /* Hellgrün */
-      display: flex; /* Für seitliche Navigation */
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    /* Hauptbereich für Navigation + Content */
+    .main {
+      display: flex;
+      flex: 1;
     }
 
     /* Navigation links */
     nav {
-      background-color: #006400; /* Dunkelgrün */
-      color: black;
-      width: 200px; /* Breite der Navigation */
-      height: 100vh; /* Vollhöhe */
+      background-color: #32CD32; /* Mittelgrün */
+      width: 200px;
       padding: 20px;
       box-sizing: border-box;
     }
@@ -38,44 +45,3 @@
 
     /* Hauptinhalt */
     .content {
-      padding: 20px;
-      flex-grow: 1;
-    }
-
-    /* Header 1 */
-    h1 {
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 0;
-    }
-
-    /* Header 2 */
-    h2 {
-      font-size: 14px;
-      font-weight: bold;
-      margin-top: 0;
-    }
-
-    /* Standardtext */
-    p {
-      font-size: 12px;
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body>
-  <nav>
-    <a href="#">Start</a>
-    <a href="#">Über uns</a>
-    <a href="#">Leistungen</a>
-    <a href="#">Kontakt</a>
-  </nav>
-
-  <div class="content">
-    <h1>Willkommen!</h1>
-    <p>Dies ist ein Beispieltext in der Standardgröße 12px.</p>
-    <h2>Unterüberschrift</h2>
-    <p>Weitere Informationen und Inhalte können hier stehen.</p>
-  </div>
-</body>
-</html>
