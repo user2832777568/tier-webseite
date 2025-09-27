@@ -34,18 +34,23 @@
         <p>Erfahren Sie mehr über einige der am stärksten gefährdeten Arten:</p>
 
         <div>
-            <h3>🌱 Panda</h3>
-            <p>Der Große Panda ist ein Symbol für den Artenschutz. Nur noch wenige tausend Tiere leben in den Bergwäldern Chinas.</p>
+            <h3>🐘 Elefanten</h3>
+            <p>Elefanten sind durch Wilderei und den Verlust ihres Lebensraumes stark bedroht. Besonders der Elfenbeinhandel hat die Populationen dramatisch dezimiert.</p>
         </div>
 
         <div>
-            <h3>🦏 Nashorn</h3>
-            <p>Nashörner sind durch Wilderei stark bedroht, besonders wegen des illegalen Handels mit ihren Hörnern.</p>
+            <h3>🦍 Gorillas</h3>
+            <p>Gorillas leben in den Wäldern Afrikas. Sie sind durch Abholzung, Krankheiten und Wilderei massiv gefährdet.</p>
         </div>
 
         <div>
-            <h3>🐢 Meeresschildkröte</h3>
-            <p>Meeresschildkröten leiden unter Plastikverschmutzung, Fischerei und dem Verlust von Stränden.</p>
+            <h3>🦁 Löwen</h3>
+            <p>Der König der Tiere ist in freier Wildbahn immer seltener anzutreffen. Lebensraumverlust und Konflikte mit Menschen setzen den Löwen stark zu.</p>
+        </div>
+
+        <div>
+            <h3>🦏 Nashörner</h3>
+            <p>Nashörner sind durch Wilderei extrem bedroht, da ihre Hörner auf dem Schwarzmarkt hohe Preise erzielen.</p>
         </div>
     </section>
 
