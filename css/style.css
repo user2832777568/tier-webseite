@@ -19,15 +19,15 @@
 
         /* Navigation */
         nav {
-            background-color: #284e6f; /* Dunkelgrün */
-            width: 200px; /* Breite der Seitenleiste */
-            min-height: 100vh; /* Volle Höhe */
+            background-color: #284e6f;
+            width: 200px; 
+            min-height: 100vh;
             padding: 20px;
             box-sizing: border-box;
         }
 
         nav a {
-            display: block; /* Vertikale Links */
+            display: block;
             color: white;
             text-decoration: none;
             margin-bottom: 15px;
@@ -38,25 +38,39 @@
             text-decoration: underline;
         }
 
-        /* Inhalt */
-        .content {
-            flex: 1; /* Nimmt verbleibenden Platz ein */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
             padding: 20px;
+            box-sizing: border-box;
+        }
+
+       .content {
+            flex: 1; /* Damit der Footer nach unten rutscht */
+        }
+
+         footer {
+            background-color: #1d3a50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
         }
 
         /* Header-Stile */
         h1 {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
         }
 
         h2 {
-            font-size: 14px;
+            font-size: 16px;
             font-weight: bold;
         }
 
         p {
-            font-size: 12px;
+            font-size: 14px;
         }
 
     </style>
