@@ -1,51 +1,93 @@
-Karteninhalt nicht vergessen
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Helvetia – Elefanten</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afrikanische Elefanten</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <div class="layout">
+        <aside class="sidebar">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tiere.html">Tiere</a>
+                <a href="spenden.html">Schutzprojekte</a>
+                <a href="kontakt.html">Spenden</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </aside>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="tiere.html">Tiere</a>
-        <a href="spenden.html">Spenden</a>
-        <a href="kontakt.html">Kontakt</a>
-    </nav>
+        <main class="content">
+            <header>
+                <h1>Afrikanische Elefanten</h1>
+                <h2>lorem ipsum.</h2>
+            </header>
 
-    <!-- Titel -->
-    <h1>🐘 Elefanten</h1>
+            <section class="intro">
+                <p>
+                   Der Afrikanische Waldelefant ist vom Aussterben bedroht. Seit 2021 wird er auf der Roten Liste in der höchsten Bedrohungskategorie eingeordnet. Der Afrikanische Savannenelefant steht in der zweithöchsten Kategorie: „stark gefährdet“.
+                    Laut der Weltnaturschutzunion IUCN- umfasst der Gesamtbestand der Afrikanischen Elefanten rund 415.000 Tiere, 100.000 weniger als noch im Jahr 2006. Aktuellere Zahlen gibt es nicht.
+                </p>
+                <p>
+                    Unsere Mission ist es, über die Gefährdung dieser Tiere aufzuklären und aktive Schutzmaßnahmen zu unterstützen. 
+                    Mit Ihrer Hilfe können wir Lebensräume bewahren, Artenschutzprojekte fördern und die Vielfalt unserer Erde sichern.
+                </p>
+            </section>
 
-    <!-- Bild-Platzhalter -->
-    <div style="width:100%; max-width:600px; margin:20px 0;">
-        <img src="platzhalter.jpg" alt="Platzhalter Elefant" style="width:100%; height:auto; border:2px solid #333;">
+            <section class="tiere">
+                <div class="tier">
+                    <img src="bilder/elefanten.jpg" alt="Elefant">
+                    <div class="overlay">
+                    <a href="seiten/elefanten.html" class="button">Mehr über Elefanten erfahren</a>
+                </div>
+            </div>
+
+                <div class="tier">
+                    <img src="bilder/gorillas.jpg" alt="Gorilla">
+                    <div class="overlay">
+                    <a href="seiten/gorillas.html" class="button">Mehr über Gorillas erfahren</a>
+                </div>
+            </div>
+                    
+                <div class="tier">
+                    <img src="bilder/loewen.jpg" alt="Löwe">
+                    <div class="overlay">
+                    <a href="seiten/loewen.html" class="button">Mehr über Löwen erfahren     </a>
+                </div>
+            </div>
+                    
+                <div class="tier">
+                    <img src="bilder/nashoerner.jpg" alt="Nashorn" loading="lazy">
+                    <div class="overlay">
+                    <a href="seiten/nashoerner.html" class="button">Mehr über Nashörner erfahren</a>
+                </div>
+            </div>
+            </section>
+
+            <section class="teaser">
+                <p>
+                    Unterstützen Sie den Schutz bedrohter Tierarten! Erfahren Sie mehr über unsere aktuellen Projekte 
+                    und wie Sie direkt helfen können.
+                </p>
+                <a href="spenden.html" class="button">Zu den Schutzprojekten</a>
+            </section>
+
+        <footer class="footer">
+          <div class="social-icons">
+        <a href="#"><img src="icons/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="icons/x.svg" alt="X" /></a>
+        <a href="#"><img src="icons/instagram.svg" alt="Instagram" /></a>
+        <a href="#"><img src="icons/tiktok.svg" alt="Tiktok" /></a>
+      </div>
+      <div class="copyright">
+    &copy; 2025 Bedrohte Tierarten
+  </div>
+</footer>
+
+            
+        </main>
     </div>
-
-    <!-- Textabschnitt -->
-    <p>
-        Elefanten sind mit bis zu vier Metern Schulterhöhe und sechs Tonnen Gewicht die größten heute lebenden 
-        Landsäugetiere der Erde. Sie haben den größten Kopf, den längsten Rüssel und das größte Gehirn: 
-        Schon bei neugeborenen Elefanten wiegt es über vier Kilogramm – später, bei ausgewachsenen Tieren, 
-        dann bis zu 5,4 Kilogramm.
-    </p>
-
-    <p>
-        Die Familie der Elefanten umfasst drei Arten: In Afrika lebt die Elefanten-Gattung <em>Loxodonta</em> 
-        mit den beiden Arten Afrikanischer Savannenelefant und Afrikanischer Waldelefant – sie wurden erst 
-        kürzlich als zwei eigenständige Arten eingeordnet. In Asien ist der Asiatische Elefant zu Hause 
-        (Gattung <em>Elephas</em>). Hier unterscheidet man zwischen den Unterarten Borneo- und Ceylon-Elefant.
-    </p>
-
-    <p>
-        Alle Elefanten sind bedroht: Seit Jahrtausenden ist Elfenbein als Rohstoff für kunstvolle 
-        Schnitzereien und luxuriöse Gegenstände begehrt. Die Dickhäuter werden deshalb seit jeher getötet.
-    </p>
-
-    <!-- Karte Lebensraum -->
-    <section>
-        <h2>🌍 Lebensraum der Elefanten</h2>
-        <p>Die Karte zeigt die Hauptlebensräume der Elefanten in Afrika und Asien:</p>
-        <div style="width:100%; height:400
+</body>
+</html>
