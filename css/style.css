@@ -1,73 +1,81 @@
-/* Grundlayout */
-body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-    display: flex;
-}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Seitenlayout Grün</title>
+  <style>
+    /* Allgemeiner Seitenstil */
+    body {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 12px; /* Standardtextgröße */
+      background-color: #90EE90; /* Hellgrün */
+      display: flex; /* Für seitliche Navigation */
+    }
 
-/* Sidebar links */
-.sidebar {
-    width: 200px;
-    background-color: #006400
-    min-height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding-top: 20px;
-    box-sizing: border-box;
-}
+    /* Navigation links */
+    nav {
+      background-color: #006400; /* Dunkelgrün */
+      color: white;
+      width: 200px; /* Breite der Navigation */
+      height: 100vh; /* Vollhöhe */
+      padding: 20px;
+      box-sizing: border-box;
+    }
 
-.sidebar nav a {
-    display: block;
-    color: #fff; /* weiße Schrift */
-    text-decoration: none;
-    padding: 12px 20px;
-    font-weight: bold;
-}
+    /* Navigation Links */
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
 
-.sidebar nav a:hover {
-    background-color: #555;
-}
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-/* Hauptinhalt rechts von Sidebar */
-.content {
-    margin-left: 200px; /* gleiche Breite wie Sidebar */
-    padding: 20px;
-}
+    /* Hauptinhalt */
+    .content {
+      padding: 20px;
+      flex-grow: 1;
+    }
 
-/* Teaser & Buttons */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #006400;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
+    /* Header 1 */
+    h1 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 0;
+    }
 
-.button:hover {
-    background-color: #555;
-}
+    /* Header 2 */
+    h2 {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 0;
+    }
 
-/* Tierbilder & Overlay */
-.tier {
-    position: relative;
-    margin-bottom: 30px;
-}
+    /* Standardtext */
+    p {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Start</a>
+    <a href="#">Über uns</a>
+    <a href="#">Leistungen</a>
+    <a href="#">Kontakt</a>
+  </nav>
 
-.tier img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.overlay-text {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: #fff;
-    background-color: rgba(0,0,0,0.5);
-    padding: 8px 12px;
-    border-radius: 5px;
-}
+  <div class="content">
+    <h1>Willkommen!</h1>
+    <p>Dies ist ein Beispieltext in der Standardgröße 12px.</p>
+    <h2>Unterüberschrift</h2>
+    <p>Weitere Informationen und Inhalte können hier stehen.</p>
+  </div>
+</body>
+</html>
