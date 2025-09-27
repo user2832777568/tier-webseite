@@ -2,178 +2,138 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bedrohte Tierarten</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-
-        .layout {
-    display: flex;
-    min-height: 100vh;
-}
-        
-        .tiere {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 28px;
-            justify-content: flex-start;
-            margin-bottom: 40px;
-        }
-
-        .tier {
-            position: relative;
-            width: 240px;
-            height: 240px;
-            overflow: hidden;
-            border-radius: 14px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.13);
-            background: #fff;
-            flex: 0 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .tier img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            border-radius: 14px;
-        }
-
-        .overlay-text {
-            position: absolute;
-            bottom: 56px;
-            left: 0;
-            width: 100%;
-            color: #fff;
-            background: rgba(40, 78, 111, 0.6);
-            padding: 10px 8px;
-            font-size: 1rem;
-            box-sizing: border-box;
-            text-align: center;
-            font-weight: 500;
-        }
-
-        .tier .button {
-            position: absolute;
-            bottom: 14px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #eaf3fa;
-            color: #00008B;
-            border: none;
-            padding: 7px 18px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: normal;
-            font-size: 0.98rem;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.11);
-            transition: background 0.2s;
-        }
-        .tier .button:hover {
-            background: #f0f0f0;
-        }
-
-        .teaser {
-            margin-top: 36px;
-            background: #eaf3fa;
-            padding: 24px;
-            border-radius: 10px;
-            text-align: center;
-        }
-        .teaser .button {
-            margin-top: 10px;
-        }
-
-            .sidebar {
-                position: static;
-                width: 100%;
-                height: auto;
-                padding: 8px 0;
-            }
-            .tiere {
-                justify-content: center;
-                gap: 18px;
-            }
-            .tier {
-                width: 180px;
-                height: 180px;
-            }
-        }
-        @media (max-width: 540px) {
-            .tiere {
-                flex-direction: column;
-                align-items: center;
-            }
-            .tier {
-                width: 95vw;
-                max-width: 340px;
-                height: 160px;
-            }
-        }
-    </style>
 </head>
-    
-    <body>
-        <div class="layout">
-            <aside class="sidebar">
-                <nav>
-            <a href="index.html">Home</a>
-            <a href="tiere.html">Tiere</a>
-            <a href="spenden.html">Schutzprojekte</a>
-            <a href="kontakt.html">Spenden</a>
-            <a href="kontakt.html">Kontakt</a>
-        </nav>
-    </aside>
 
-    <main class="content">
-        <header>
-            <h1>Bedrohte Tierarten</h1>
-            <h2>Vom Aussterben bedrohte Tierarten – verstehen, schützen und gemeinsam ihre Lebensräume erhalten, bevor es zu spät ist.</h2>
-        </header>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tiere.html">Tiere</a>
+                <a href="spenden.html">Schutzprojekte</a>
+                <a href="kontakt.html">Spenden</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </aside>
 
-        <section class="intro">
-            <p>
-                Bedrohte Tierarten sind ein sichtbares Zeichen dafür, dass unsere Ökosysteme unter Druck stehen. 
-                Viele Arten verschwinden durch Lebensraumverlust, Wilderei und Umweltverschmutzung. Jede Art spielt 
-                eine wichtige Rolle im Gleichgewicht der Natur – ihr Verlust hat weitreichende Folgen für das gesamte Ökosystem.
-            </p>
-            <p>
-                Unsere Mission ist es, über die Gefährdung dieser Tiere aufzuklären und aktive Schutzmaßnahmen zu unterstützen. 
-                Mit Ihrer Hilfe können wir Lebensräume bewahren, Artenschutzprojekte fördern und die Vielfalt unserer Erde sichern.
-            </p>
-        </section>
+        <main class="content">
+            <header>
+                <h1>Bedrohte Tierarten</h1>
+                <h2>Vom Aussterben bedrohte Tierarten – verstehen, schützen und gemeinsam ihre Lebensräume erhalten, bevor es zu spät ist.</h2>
+            </header>
 
-    <section class="tiere">
-            <div class="tier">
-                <img src="bilder/elefanten.jpg" alt="Elefant">
-                <a href="seiten/elefanten.html" class="button">Mehr über Elefanten erfahren</a>
-            </div>
+            <section class="intro">
+                <p>
+                    Bedrohte Tierarten sind ein sichtbares Zeichen dafür, dass unsere Ökosysteme unter Druck stehen. 
+                    Viele Arten verschwinden durch Lebensraumverlust, Wilderei und Umweltverschmutzung. Jede Art spielt 
+                    eine wichtige Rolle im Gleichgewicht der Natur – ihr Verlust hat weitreichende Folgen für das gesamte Ökosystem.
+                </p>
+                <p>
+                    Unsere Mission ist es, über die Gefährdung dieser Tiere aufzuklären und aktive Schutzmaßnahmen zu unterstützen. 
+                    Mit Ihrer Hilfe können wir Lebensräume bewahren, Artenschutzprojekte fördern und die Vielfalt unserer Erde sichern.
+                </p>
+            </section>
 
-            <div class="tier">
-                <img src="bilder/gorillas.jpg" alt="Gorilla">
-                <a href="seiten/gorillas.html" class="button">Mehr über Gorillas erfahren</a>
-            </div>
+            <section class="tiere">
+                <div class="tier">
+                    <img src="bilder/elefanten.jpg" alt="Elefant" loading="lazy">
+                    <a href="seiten/elefanten.html" class="button">Mehr über Elefanten erfahren</a>
+                </div>
 
-            <div class="tier">
-                <img src="bilder/loewen.jpg" alt="Löwe">
-                <a href="seiten/loewen.html" class="button">Mehr über Löwen erfahren</a>
-            </div>
+                <div class="tier">
+                    <img src="bilder/gorillas.jpg" alt="Gorilla" loading="lazy">
+                    <a href="seiten/gorillas.html" class="button">Mehr über Gorillas erfahren</a>
+                </div>
 
-            <div class="tier">
-                <img src="bilder/nashoerner.jpg" alt="Nashorn">
-                <a href="seiten/nashoerner.html" class="button">Mehr über Nashörner erfahren</a>
-            </div>
-        </section>
+                <div class="tier">
+                    <img src="bilder/loewen.jpg" alt="Löwe" loading="lazy">
+                    <a href="seiten/loewen.html" class="button">Mehr über Löwen erfahren</a>
+                </div>
 
-        <section class="teaser">
-            <p>
-                Unterstützen Sie den Schutz bedrohter Tierarten! Erfahren Sie mehr über unsere aktuellen Projekte 
-                und wie Sie direkt helfen können.
-            </p>
-            <a href="spenden.html" class="button">Zu den Schutzprojekten</a>
-        </section>
-    </main>
+                <div class="tier">
+                    <img src="bilder/nashoerner.jpg" alt="Nashorn" loading="lazy">
+                    <a href="seiten/nashoerner.html" class="button">Mehr über Nashörner erfahren</a>
+                </div>
+            </section>
 
+            <section class="teaser">
+                <p>
+                    Unterstützen Sie den Schutz bedrohter Tierarten! Erfahren Sie mehr über unsere aktuellen Projekte 
+                    und wie Sie direkt helfen können.
+                </p>
+                <a href="spenden.html" class="button">Zu den Schutzprojekten</a>
+            </section>
+
+.tiere {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.tier {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    background: #fff;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tier img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 14px;
+}
+
+.tier .button {
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #eaf3fa;
+    color: #00008B;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 0.98rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.11);
+    transition: background 0.2s;
+}
+
+.tier .button:hover {
+    background: #f0f0f0;
+}
+
+.teaser {
+    margin-top: 36px;
+    background: #eaf3fa;
+    padding: 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.teaser .button {
+    margin-top: 10px;
+}
+            
+            <footer>
+                &copy; 2025 Bedrohte Tierarten
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
