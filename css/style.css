@@ -47,11 +47,6 @@
             flex-direction: column;
             padding: 20px;
             box-sizing: border-box;
-        }
-
-       .content {
-            flex: 1; /* Damit der Footer nach unten rutscht */
-        }
 
          footer {
             background-color: #1d3a50;
