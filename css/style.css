@@ -139,7 +139,7 @@
 }
 
 .teaser {
-    margin-top: 5px;
+    margin-top: 1px;
     background: #eaf3fa;
     padding: 24px;
     border-radius: 10px;
@@ -147,7 +147,7 @@
 }
 
 .teaser .button {
-    margin-top: 5px;
+    margin-top: 1px;
 }
                     
     </style>
