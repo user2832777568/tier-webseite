@@ -1,58 +1,73 @@
-/* Allgemeines Seitenlayout */
+/* Grundlayout */
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #333333; /* Dunkelgrau */
-    background-color: #f2f2f2; /* Hellgrau */
     margin: 0;
-    padding: 0;
+    font-family: Helvetica, sans-serif;
+    display: flex;
 }
 
-/* Titel */
-h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333333;
-    margin: 20px 0 10px;
+/* Sidebar links */
+.sidebar {
+    width: 200px;
+    background-color: #333; /* dunkelgrau */
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
-/* Untertitel */
-h2 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    color: #333333;
-    margin: 10px 0;
-}
-
-/* Fließtext */
-p {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    color: #333333;
-    line-height: 1.5;
-    margin: 10px 0;
-}
-
-/* Navigation */
-nav {
-    background-color: #333333; /* Dunkelgrau */
-    padding: 10px;
-}
-
-nav a {
-    color: #ffffff; /* Weiß */
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
+.sidebar nav a {
+    display: block;
+    color: #fff; /* weiße Schrift */
     text-decoration: none;
-    margin-right: 15px;
-    padding: 6px 10px;
-    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #555555; /* etwas heller beim Hover */
+.sidebar nav a:hover {
+    background-color: #555;
+}
+
+/* Hauptinhalt rechts von Sidebar */
+.content {
+    margin-left: 200px; /* gleiche Breite wie Sidebar */
+    padding: 20px;
+}
+
+/* Teaser & Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Tierbilder & Overlay */
+.tier {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.tier img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px 12px;
+    border-radius: 5px;
 }
