@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Helvetia – Schutz bedrohter Tiere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tiere.html">Tiere</a>
+        <a href="spenden.html">Spenden</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <!-- Titel -->
+    <h1>Helvetia</h1>
+
+    <!-- Untertitel -->
+    <h2>Gemeinsam für vom Aussterben bedrohte Tiere</h2>
+
+    <!-- Begrüßung -->
+    <p>
+        Willkommen auf unserer Webseite!  
+        Wir setzen uns dafür ein, bedrohte Tierarten zu schützen und ihre Lebensräume zu erhalten.  
+        Mit Ihrer Unterstützung können wir einen echten Unterschied machen.
+    </p>
+
+    <!-- Übersicht Tiere (Teaser) -->
+    <section>
+        <h2>🐾 Bedrohte Tiere</h2>
+        <p>Erfahren Sie mehr über einige der am stärksten gefährdeten Arten:</p>
+
+        <div>
+            <h3>🌱 Panda</h3>
+            <p>Der Große Panda ist ein Symbol für den Artenschutz. Nur noch wenige tausend Tiere leben in den Bergwäldern Chinas.</p>
+        </div>
+
+        <div>
+            <h3>🦏 Nashorn</h3>
+            <p>Nashörner sind durch Wilderei stark bedroht, besonders wegen des illegalen Handels mit ihren Hörnern.</p>
+        </div>
+
+        <div>
+            <h3>🐢 Meeresschildkröte</h3>
+            <p>Meeresschildkröten leiden unter Plastikverschmutzung, Fischerei und dem Verlust von Stränden.</p>
+        </div>
+    </section>
+
+    <!-- Spenden-Teaser -->
+    <section>
+        <h2>💚 Unterstützen Sie uns</h2>
+        <p>
+            Helfen Sie mit, diese Tiere zu schützen.  
+            Mit Ihrer Spende tragen Sie direkt zu Projekten bei, die Lebensräume erhalten und Wilderei bekämpfen.
+        </p>
+        <a href="spenden.html" class="button">Jetzt spenden</a>
+    </section>
+
+</body>
+</html>
