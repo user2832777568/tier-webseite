@@ -165,24 +165,59 @@
         margin-top: 8px;    
     }
 
-.tier .overlay a.button:hover {
-    background: #dbe9f5;
-}
+        .tier .overlay a.button:hover {
+        background: #dbe9f5;
+        }
 
-.teaser {
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    background: #eaf3fa;
-    padding: 24px;
-    border-radius: 10px;
-    text-align: center;
-}
+        .teaser {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        background: #eaf3fa;
+        padding: 24px;
+        border-radius: 10px;
+        text-align: center;
+        }
 
-.teaser .button {
-    margin-top: 40px;
-}
-                    
+        .teaser .button {
+        margin-top: 40px;
+        }
+
+        .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        }
+
+        .project {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        .project a.button {
+            background-color: #eaf3fa;
+            color: #00008B;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+                font-weight: bold;
+            display: inline-block;
+            margin-top: 12px;
+            transition: background-color 0.3s ease;
+        }        
+
+        .project a.button:hover {
+            background-color: #dbe9f5;
+        }
     </style>
 </head>
 <body>
