@@ -228,7 +228,43 @@
           max-width: 800px;
           text-align: center;
         }
-    
+
+form#spenden-formular {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form#spenden-formular label {
+  font-weight: bold;
+}
+
+form#spenden-formular input,
+form#spenden-formular select,
+form#spenden-formular button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+form#spenden-formular button {
+  background-color: #1d3a50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form#spenden-formular button:hover {
+  background-color: #284e6f;
+}
+
 </style>
 </head>
 <body>
