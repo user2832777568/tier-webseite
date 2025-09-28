@@ -19,16 +19,39 @@
       </nav>
     </aside>
       
-        <main class="content">
-            <header>
-                <h1>Jetzt spenden</h1>
-                <h2>Unterstützen Sie Projekte für den Erhalt von Tierarten, die vom Aussterben bedroht sind</h2>
-            </header>
+    <main class="content">
+      <h1>Spendenformular</h1>
 
-         <p>
-        Ihre Unterstützung hilft bedrohten Tieren in Afrika und Asien.  
-        Wählen Sie ein Projekt aus und leisten Sie einen Beitrag zum Schutz dieser Arten.
-    </p>
+      <form action="DEIN-BACKEND-ODER-STRIPE-HANDLER" method="POST" id="spenden-formular">
+        <label for="projekt">Projekt auswählen:</label>
+        <select id="projekt" name="projekt" required>
+          <option value="">-- Bitte wählen --</option>
+          <option value="elefanten">Afrikanische Elefanten</option>
+          <option value="gorillas">Gorillas</option>
+          <option value="loewen">Löwen</option>
+          <option value="nashoerner">Nashörner</option>
+        </select>
+
+        <label for="betrag">Spendenbetrag (€):</label>
+        <input type="number" id="betrag" name="betrag" min="1" required />
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <!-- Stripe-Kreditkartenelement wird hier eingebunden -->
+        <div id="card-element"><!-- Stripe wird das hier einfügen --></div>
+        <div id="card-errors" role="alert"></div>
+
+        <button type="submit">Jetzt spenden</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="js/zahlung.js"></script>
 
             <footer class="footer">
                 <div class="social-icons">
