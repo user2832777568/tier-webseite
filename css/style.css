@@ -29,6 +29,14 @@
             box-sizing: border-box;
         }
 
+        .sidebar {
+            width: 200px;
+            background-color: #284e6f;
+            padding: 20px;
+            box-sizing: border-box;
+            min-height: 100vh;
+        }
+
         nav a {
             display: block;
             color: white;
